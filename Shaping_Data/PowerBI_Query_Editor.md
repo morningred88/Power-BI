@@ -43,5 +43,9 @@ Upload AdventureWorks_Customers.csv file to Query Editor
 
 Hold shift key, select Prefix, FirstName, LastName three columns> click transform Tab> Format> Capitalize Each Word
 
+## Add full name to AW_Customers_Lookup query
 
+Hold shift key, select Prefix, FirstName, LastName three columns> click Add Column Tab > Merge columns > Seperator: Space; New column name: FullName.
+
+Then rename the applied step from default Inserted Merge Column to **Inserted FullName Column**
 
