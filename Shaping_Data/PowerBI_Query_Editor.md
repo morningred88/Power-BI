@@ -36,3 +36,12 @@ Then click **Transform Data** to land on the query editor page. You can bypass t
 
 * Update table name
 * Scroll through the column headers to make the data types and column headers look good. 
+
+## Change the proper case for AW_Customers_Lookup query
+
+Upload AdventureWorks_Customers.csv file to Query Editor
+
+Hold shift key, select Prefix, FirstName, LastName three columns> click transform Tab> Format> Capitalize Each Word
+
+
+
