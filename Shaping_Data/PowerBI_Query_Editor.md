@@ -22,7 +22,7 @@ This is really, really powerful because what is happening here is that every tim
 
 
 
-## Upload a csv file to PowerBI
+## Upload a csv file to query editor
 
 Get data > Text/CSV file> select the CSV file in the computer. As soon as you select file, you will see the preview window. This has a couple of options worth paying attention to:
 
@@ -31,3 +31,8 @@ Get data > Text/CSV file> select the CSV file in the computer. As soon as you se
 * Data type detection: PowerBi takes a sneak peek and detect the data type. You can also select **Do not detect data types**, so you can manually add data types in the query editor.  By default, PowerBI automatically detect the data types based on the first 200 rows. 
 
 Then click **Transform Data** to land on the query editor page. You can bypass the query editor by clicking **Load** button directly to load the table to the workbook. But launching power editor is a great way to make sure things look good. 
+
+## 2 Steps when you connect to data or upload a table to query editor
+
+* Update table name
+* Scroll through the column headers to make the data types and column headers look good. 
