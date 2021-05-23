@@ -19,3 +19,15 @@ This is really, really powerful because what is happening here is that every tim
 
 * Transform tab: including tools to modify existing columns (splitting/grouping, transposing, extracting text, etc)
 * Add column tab: create new columns in your table. And you can define those new columns based on things like conditional rules or text operations, calculations, data operator, etc.
+
+
+
+## Upload a csv file to PowerBI
+
+Get data > Text/CSV file> select the CSV file in the computer. As soon as you select file, you will see the preview window. This has a couple of options worth paying attention to:
+
+* File origin
+* Delimiter
+* Data type detection: PowerBi takes a sneak peek and detect the data type. You can also select **Do not detect data types**, so you can manually add data types in the query editor.  By default, PowerBI automatically detect the data types based on the first 200 rows. 
+
+Then click **Transform Data** to land on the query editor page. You can bypass the query editor by clicking **Load** button directly to load the table to the workbook. But launching power editor is a great way to make sure things look good. 
