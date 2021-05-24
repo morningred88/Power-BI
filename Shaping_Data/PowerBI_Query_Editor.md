@@ -53,3 +53,37 @@ Hold shift key, select Prefix, FirstName, LastName three columns> click Add Colu
 
 Then rename the applied step from default Inserted Merge Column to **Inserted FullName Column**
 
+## Extract tools based on delimiters
+
+**Goal: We need to extract the user name and domain name from the email address in AW_Customers_Lookup query. **
+
+User name is the text in email address before @
+
+Domain name is the text in email address between @ and .com. Then change the domain name to proper case, and replace dash with space
+
+* **Add UserName column extracted from email**
+
+Select EmailAdress column > Add Column tab > Extract > Text Before Delimiter > Delimiter: @
+
+Rename Inserted Text Before Delimiter column to UserName
+
+* **Add Domain column extracted from email**
+
+Select EmailAdress column > Add Column tab > Extract > Text Between Delimiters >Start Delimiter: @; End Delimiter: .com
+
+Rename Inserted Text Before Delimiter column to **Domain**
+
+* **change the domain name to proper case, and replace dash with space**
+
+Select Domain column > Transform tab > format> Capitalized Each Word
+
+Select Domain column > Transform tab > Replace Values> Value to Find: - ; Replace with: type space key
+
+ 
+
+
+
+
+
+
+
