@@ -32,18 +32,22 @@ Get data > Text/CSV file> select the CSV file in the computer. As soon as you se
 
 Then click **Transform Data** to land on the query editor page. You can bypass the query editor by clicking **Load** button directly to load the table to the workbook. But launching power editor is a great way to make sure things look good. 
 
-## 2 Steps when you connect to data or upload a table to query editor
+## 2 Required Steps when you connect to data or upload a table to query editor
 
 * Update table name
 * Scroll through the column headers to make the data types and column headers look good. 
 
-## Change the proper case for AW_Customers_Lookup query
+## Format column to proper case 
+
+**Goal: We want to change the proper case for AW_Customers_Lookup query**
 
 Upload AdventureWorks_Customers.csv file to Query Editor
 
 Hold shift key, select Prefix, FirstName, LastName three columns> click transform Tab> Format> Capitalize Each Word
 
-## Add full name to AW_Customers_Lookup query
+## Merge columns
+
+**Goal: We want to add full name to AW_Customers_Lookup query**
 
 Hold shift key, select Prefix, FirstName, LastName three columns> click Add Column Tab > Merge columns > Seperator: Space; New column name: FullName.
 
