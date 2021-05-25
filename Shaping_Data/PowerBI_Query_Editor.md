@@ -81,7 +81,15 @@ Select Domain column > Transform tab > Replace Values> Value to Find: - ; Replac
 
  
 
+## Date & Time Tools
 
+### Load source data
+
+Get data> load AdventureWorks_Calendar csv file> Transform> 
+
+We can add the calendar to track the sales by date, by week or by year
+
+**Note:** If you want to work with Date tool, you need select the column having Date data type. 
 
 
 
