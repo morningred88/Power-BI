@@ -103,6 +103,26 @@ Shows start date of the week
 
 Select Date column> Add Column > Date >Week > Start of Week
 
+**Note:**
+
+By default, Power Bi starts the week with Sunday
+
+We can change it by updating the M code
+
+f(x) = Table.AddColumn(#"Inserted Day Name", "Start of Week", each Date.StartOfWeek([Date]), type date)
+
+We have two ways to change it, for example, we can change the week starts with Monday:
+
+**Option 1: Add number 1 to Date**
+
+f(x) = Table.AddColumn(#"Inserted Day Name", "Start of Week", each Date.StartOfWeek([Date],1), type date)
+
+**Option 2: Add Day.Monday to Date**
+
+f(x) = Table.AddColumn(#"Inserted Day Name", "Start of Week", each Date.StartOfWeek([Date], Day.Monday), type date)
+
+Option 2 is more readable. 
+
 ### Other functions in Date tool
 
 **Name of Month:** January, February ...December
