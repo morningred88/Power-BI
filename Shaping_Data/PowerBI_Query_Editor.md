@@ -133,3 +133,16 @@ Option 2 is more readable.
 
 
 
+## Add conditional columns
+
+### Data source
+
+Load the csv file AdventureWorks_Sales_2017 from Raw data folder, then click Transform Data.
+
+### Goal
+
+We plan to add a new conditional column to record the quantity type
+
+If column OrderQuantity equals 1, Then Output for the new column should be Single Item.
+
+If column OrderQuantity is greater than 1, Then Output for the new column should be Multiple Items.
