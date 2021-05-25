@@ -163,3 +163,30 @@ Otherwise: **Other**
 
 click ok to complete
 
+## Grouping & Aggregating records
+
+### Data source
+
+AW_Sales_2017 query
+
+using Transform> Group by tool
+
+### Goal 1: Group by basic option
+
+For AW_Sales_2017 query, we want to see how much the product quality has been sold for each unique ProductKey.
+
+Select ProductKey coliumn > Transform tab> Group by tool>
+
+Check Basic
+
+Group by: ProductKey
+
+New Column name: TotalQuantity
+
+Operations: Sum
+
+Column: OrderQuantity
+
+Click OK. 
+
+This collapse our data into a 2 column table with new aggregated quality field that we named it as TotalQuantity and unique list of product keys
