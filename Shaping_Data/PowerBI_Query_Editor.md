@@ -91,7 +91,25 @@ We can add the calendar to track the sales by date, by week or by year
 
 **Note:** If you want to work with Date tool, you need select the column having Date data type. 
 
+### Add name of day
 
+Monday, Tuesday...
+
+Select Date column> Add Column > Date >Day > Name of Day
+
+### Add start of week: First date of the week
+
+Shows start date of the week 
+
+Select Date column> Add Column > Date >Week > Start of Week
+
+### Other functions in Date tool
+
+**Name of Month:** January, February ...December
+
+**Start of Year:** 1/1/2021, 1/1/2021
+
+**Year:** 2020, 2021
 
 
 
