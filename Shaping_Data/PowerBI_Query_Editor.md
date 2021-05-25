@@ -139,6 +139,8 @@ Option 2 is more readable.
 
 Load the csv file AdventureWorks_Sales_2017 from Raw data folder, then click Transform Data.
 
+Change query name to AW_Sales_2017
+
 ### Goal
 
 We plan to add a new conditional column to record the quantity type
@@ -146,3 +148,18 @@ We plan to add a new conditional column to record the quantity type
 If column OrderQuantity equals 1, Then Output for the new column should be Single Item.
 
 If column OrderQuantity is greater than 1, Then Output for the new column should be Multiple Items.
+
+### Add conditional column in Query Editor
+
+Add Column> Conditional column
+
+New column name: **QuantityType**
+
+If column OrderQuantity equals 1, Then Output for the new column should be **SingleItem**.
+
+Else If column OrderQuantity is greater than 1, Then Output for the new column should be **MultipleItems**.
+
+Otherwise: **Other**
+
+click ok to complete
+
