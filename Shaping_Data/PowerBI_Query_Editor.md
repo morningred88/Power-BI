@@ -214,7 +214,17 @@ This collapse our data into a 3 column table containing each unique combinations
 **Notes:**
 
 * The only difference between basic and advanced option in group by is: you can only group by one column for basic, which multiple columns for advanced. 
-
 * Even group by function is under Transform tab, it add a new aggregation column. This function will create a new table instead of the original one. 
 
-  
+
+
+## Pivoting & Unpivoting data
+
+### Definition
+
+Pivoting: change rows to columns
+
+Unpivoting: Change column to rows
+
+
+
