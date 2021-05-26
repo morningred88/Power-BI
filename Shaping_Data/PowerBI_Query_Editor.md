@@ -243,3 +243,13 @@ Our goal is transform the current table in Unpivot_Demo.csv to a rectangular tab
 * Select first column, select Pivot column, value column: value
 * Rename column header from Attribute to Year
 
+### Efficient way: Transpose
+
+Transpose table operation rotates your table to 90 degrees, turning your rows into columns and columns into rows.
+
+* Transform tab > Transpose, we are pretty much done, just need to remove the current header, and add  column header for the year column
+* Use First Row as Headers
+* Add Header for year column: Year
+
+
+
