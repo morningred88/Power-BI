@@ -226,5 +226,13 @@ Pivoting: change rows to columns
 
 Unpivoting: Change column to rows
 
+### Data source
 
+Add csv file Unpivot_Demo.csv from Raw Data folder to Power BI, click transform data
+
+What we have here is that Unit Sales and Total Revenue, these 2 matrix  broken down by year
+
+### Goal
+
+Our goal is transform the current table in Unpivot_Demo.csv to a rectangular table: Each matrix as column, each observation as row. We want to transform it to a table that has three columns, Year, Unit Sales, Total Revenue, that give us the format we can take to the model and analyze.
 
