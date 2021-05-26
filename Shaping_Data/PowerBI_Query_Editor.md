@@ -177,9 +177,9 @@ For AW_Sales_2017 query, we want to see how much the product quality has been so
 
 Select ProductKey coliumn > Transform tab> Group by tool>
 
-Check Basic
+Check **Basic**
 
-Group by: ProductKey
+Group by: **ProductKey**
 
 New Column name: TotalQuantity
 
@@ -190,3 +190,23 @@ Column: OrderQuantity
 Click OK. 
 
 This collapse our data into a 2 column table with new aggregated quality field that we named it as TotalQuantity and unique list of product keys
+
+### Goal 2: Group by Advanced option
+
+For AW_Sales_2017 query, we want to see how much the product quality has been sold for every combination of ProductKey and cutomerkey.
+
+Select ProductKey coliumn > Transform tab> Group by tool>
+
+Check **Advanced**
+
+Group by: **ProductKey**, **CustomerKey**
+
+New Column name: TotalQuantity
+
+Operations: Sum
+
+Column: OrderQuantity
+
+Click OK. 
+
+This collapse our data into a 3 column table containing each unique combinations of ProductKey and CustomerKey 
