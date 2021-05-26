@@ -236,3 +236,10 @@ What we have here is that Unit Sales and Total Revenue, these 2 matrix  broken d
 
 Our goal is transform the current table in Unpivot_Demo.csv to a rectangular table: Each matrix as column, each observation as row. We want to transform it to a table that has three columns, Year, Unit Sales, Total Revenue, that give us the format we can take to the model and analyze.
 
+### Table transformation by pivoting/unpivoting
+
+* Add headers: Transform tab> Use First Row as Headers
+* Select first column, Transform tab>Unpivot columns, select unpivot other columns. Now year column is correct, but we still need to pivot unit sales and Total Revenue to columns
+* Select first column, select Pivot column, value column: value
+* Rename column header from Attribute to Year
+
