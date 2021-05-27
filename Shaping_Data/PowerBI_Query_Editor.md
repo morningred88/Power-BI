@@ -251,5 +251,11 @@ Transpose table operation rotates your table to 90 degrees, turning your rows in
 * Use First Row as Headers
 * Add Header for year column: Year
 
+### Tips for Transpose & Unpivot:
 
+1. Delete promote header steps before you use Transpose.
+
+   Transpose is a table operation. It flips the whole tables. We must ensure table does not have headers. Otherwise, we would have lost a row of data, because Transpose flip rows to columns, the heading just tend to disappear. 
+
+2. When we use Unpivot, a section of the table is transposed. This is done by making all the headings of that section appear on a single column to be name Attribute by default, and everything under the headings now becomes a separate column to be named Value by default.
 
