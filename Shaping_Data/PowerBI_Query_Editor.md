@@ -279,3 +279,10 @@ Merging queries allows you to join tables based on a common column, which adds c
 
 * Merge Queries: Merge to the existing table
 * Merge Queries as new: Merge and create a new table
+
+**Note:**
+
+Just because we can merge tables, doesn't mean we should, because it will create a lot duplicative and redundant data, and will consume a lot of memory. We can avoid entirely by creating table relationships instead.  
+
+**In general, it is better to keep tables separate and define relationships between them. **
+
