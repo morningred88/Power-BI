@@ -286,3 +286,9 @@ Just because we can merge tables, doesn't mean we should, because it will create
 
 **In general, it is better to keep tables separate and define relationships between them. **
 
+## Appending Queries 
+
+### Definition
+
+Appending queries allow you to stack 2 or more tables that share the exact same column structure and data type. 
+
