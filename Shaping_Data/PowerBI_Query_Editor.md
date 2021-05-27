@@ -292,3 +292,9 @@ Just because we can merge tables, doesn't mean we should, because it will create
 
 Appending queries allow you to stack 2 or more tables that share the exact same column structure and data type. 
 
+### Merging queries vs Appending queries
+
+Both merging and appending are similar by adding information to the existing table. 
+
+But they are different, merging making table wider by adding more columns, and appending makes table taller by adding more rows.
+
