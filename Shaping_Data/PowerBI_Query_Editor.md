@@ -269,5 +269,13 @@ By ahmedoye
 
 https://community.powerbi.com/t5/Community-Blog/To-Transpose-or-Unpivot-What-you-need-to-know-about-table/ba-p/1013559
 
+## Merging Queries
 
+### Definition
 
+Merging queries allows you to join tables based on a common column, which adds column to an existing table.
+
+### Merge options:
+
+* Merge Queries: Merge to the existing table
+* Merge Queries as new: Merge and create a new table
