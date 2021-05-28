@@ -309,5 +309,7 @@ But they are different, merging making table wider by adding more columns, and a
 
 Appending 3 tables AdventureWorks_Sales_2015.csv, AdventureWorks_Sales_2016.csv, and AdventureWorks_Sales_2017.csv, into 1 table. 
 
+#### Method 1
 
+We can import all 3 tables into PowerBi, then Home tab> Append Queries> Append Queries as new> Check Three or more tables> Add all 3 tables
 
