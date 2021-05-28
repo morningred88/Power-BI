@@ -313,3 +313,7 @@ Appending 3 tables AdventureWorks_Sales_2015.csv, AdventureWorks_Sales_2016.csv,
 
 We can import all 3 tables into PowerBi, then Home tab> Append Queries> Append Queries as new> Check Three or more tables> Add all 3 tables
 
+**Disadvantage**
+
+We are required to keep all 3 tables in the query editor, because the new created appending table is dependent from the 3 sales tables. It looks messy. 
+
