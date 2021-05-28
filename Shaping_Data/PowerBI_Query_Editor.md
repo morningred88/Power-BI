@@ -313,7 +313,14 @@ Appending 3 tables AdventureWorks_Sales_2015.csv, AdventureWorks_Sales_2016.csv,
 
 We can import all 3 tables into PowerBi, then Home tab> Append Queries> Append Queries as new> Check Three or more tables> Add all 3 tables
 
-**Disadvantage**
+**Disadvantage:**
 
 We are required to keep all 3 tables in the query editor, because the new created appending table is dependent from the 3 sales tables. It looks messy. 
+
+#### Method 2: Use the folder option
+
+Create a new folder and put all 3 sales file in it, import folder into Power BI.
+
+* Create a new folder under Raw Data folder, name it AW_Sales, drag the 3 sales table into it.
+* Go to PowerBI report file, Get Data > more >folder > Connect, browse the folder path> The preview shows the 3 csv files and their attributes. The first column named Content is the actual data content from each table > Under Combine button, select Combine & Transform data > you can preview each table structure by selecting the file> Click OK > You can see the new query named AW_Sales has been added. The first column called Source is a newly added column that indicate the source file of the row of data. 
 
