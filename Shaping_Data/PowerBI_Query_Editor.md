@@ -298,3 +298,11 @@ Both merging and appending are similar by adding information to the existing tab
 
 But they are different, merging making table wider by adding more columns, and appending makes table taller by adding more rows.
 
+### Appending queries with 3 tables
+
+#### Data Source  and Goal:
+
+Appending 3 tables AdventureWorks_Sales_2015.csv, AdventureWorks_Sales_2016.csv, and AdventureWorks_Sales_2017.csv, into 1 table. 
+
+
+
