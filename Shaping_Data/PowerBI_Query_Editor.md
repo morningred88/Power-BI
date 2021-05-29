@@ -335,5 +335,14 @@ The Data Source Setting in the Query Editor allow you  to manage data connection
 
 When you make connection to a local file, power Bi take a snapshot to the exactly file path to that exact file name. If anything changes to the file, or if you rename it or move it to a new location, that path won't automatically update, you will need to go to **Data Source Settings**, click change the source and browse to the current version. 
 
+### Steps for Data source setting in Query Editor
 
+* Rename the source file name for AW_Product_Lookup. Rename AdventureWorks_Products.csv to AdventureWorks_Products2.csv.
 
+* Click Transform data to launch Power Editor, select AW_Product_Lookup query, click Home tab> Refresh Preview.  You will receive the error message below: 
+
+  DataSource.Error: Could not find file 'C:\Users\xldu\local-repository\Power-BI\Raw_Data\AdventureWorks_Products.csv'.
+
+* Click Home tab > Data Source Setting> select the file path> click Change Source button> browse the current file location
+
+* Test: Back to query editor, click Refresh Preview, the error is gone. 
