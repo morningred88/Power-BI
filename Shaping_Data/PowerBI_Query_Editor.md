@@ -322,5 +322,10 @@ We are required to keep all 3 tables in the query editor, because the new create
 Create a new folder and put all 3 sales file in it, import folder into Power BI.
 
 * Create a new folder under Raw Data folder, name it AW_Sales, drag the 3 sales table into it.
-* Go to PowerBI report file, Get Data > more >folder > Connect, browse the folder path> The preview shows the 3 csv files and their attributes. The first column named Content is the actual data content from each table > Under Combine button, select Combine & Transform data > you can preview each table structure by selecting the file> Click OK > You can see the new query named AW_Sales has been added. The first column called Source is a newly added column that indicate the source file of the row of data. 
+* Go to PowerBI report file, Get Data > more >folder > Connect, browse the folder path> The preview shows the 3 csv files and their attributes. The first column named Content is the actual data content from each table > Under Combine button, select Combine & Transform data > you can preview each table structure by selecting the file> Click OK > You can see the new query named AW_Sales has been added. The first column called Source is a newly added column that indicate the source file of the row of data. You can delete the column if the information is not needed.
+* You can see a new folder called Transform file form AW_Sales, we need to keep the folder there but we don't need to edit or update it. 
+
+**Advantage:**
+
+The big advantages by adding foler is: **As you add new files, simply refresh the query and they will automatically append!**
 
