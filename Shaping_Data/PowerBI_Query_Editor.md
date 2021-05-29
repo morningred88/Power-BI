@@ -352,3 +352,7 @@ When you make connection to a local file, power Bi take a snapshot to the exactl
 By default, **all** queries in the model will refresh when you use the **Refresh** command from the Home Tab.
 
 From the query editor, right click the query, uncheck **Include in report fresh** to exclude individual queries from the refresh.
+
+**Pro Tip:**
+
+Exclude queries that don't change often, like lookups or static data tables. 
