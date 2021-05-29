@@ -329,3 +329,11 @@ Create a new folder and put all 3 sales file in it, import folder into Power BI.
 
 The big advantages by adding foler is: **As you add new files, simply refresh the query and they will automatically append!**
 
+## Configuring Power BI Data Source Setting
+
+The Data Source Setting in the Query Editor allow you  to manage data connections and permissions. 
+
+When you make connection to a local file, power Bi take a snapshot to the exactly file path to that exact file name. If anything changes to the file, or if you rename it or move it to a new location, that path won't automatically update, you will need to go to **Data Source Settings**, click change the source and browse to the current version. 
+
+
+
