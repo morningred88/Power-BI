@@ -303,6 +303,12 @@ Both merging and appending are similar by adding information to the existing tab
 
 But they are different, merging making table wider by adding more columns, and appending makes table taller by adding more rows.
 
+### SQL Query equivalent
+
+Merge = join
+
+Append = union
+
 ### Appending queries with 3 tables
 
 #### Data Source  and Goal:
