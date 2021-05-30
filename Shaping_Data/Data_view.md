@@ -17,6 +17,14 @@ The same procedure for columns: Start of week, start of Month, Start of Year
 
 Then in AW_Sales query, format OrderDate and StockDate also as short date.
 
+### Add $ Sign for currency
+
+Go to AW_Product_Lookup query, select ProductCost column> Column Tools tab, confirm the data type as decimal number> Select $ sign under format, default is dollar sign. If you click down arrow beside dollar sign, you can select other currencies.
+
+The same procedure for ProductPrice and DiscountPrice column.
+
+ 
+
 
 
 
