@@ -343,7 +343,7 @@ When you make connection to a local file, power Bi take a snapshot to the exactl
 
   DataSource.Error: Could not find file 'C:\Users\xldu\local-repository\Power-BI\Raw_Data\AdventureWorks_Products.csv'.
 
-* Click Home tab > Data Source Setting> select the file path> click Change Source button> browse the current file location
+* Click Home tab in Query editor > Data Source Setting> select the file path> click Change Source button> browse the current file location
 
 * Test: Back to query editor, click Refresh Preview, the error is gone. 
 
@@ -356,3 +356,21 @@ From the query editor, right click the query, uncheck **Include in report fresh*
 **Pro Tip:**
 
 Exclude queries that don't change often, like lookups or static data tables. 
+
+### Query refresh setting for AdventureWorks_Report.pbix file
+
+Home tab > Refresh, you can see all queries all refeshing:
+
+- AW_Calendar_Lookup
+- AW_Customers_Lookup
+- AW_Product_Lookup
+- Rolling_Calendar
+- Unpivot_demo
+- AW_Sales
+
+Set the first 5 queries excluded from refresh, only leave AW_Sales.
+
+Home tab > Refresh, now you can only see that AW_Sales is refreshing.
+
+
+
