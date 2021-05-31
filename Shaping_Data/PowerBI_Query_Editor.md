@@ -79,7 +79,11 @@ Select Domain column > Transform tab > format> Capitalized Each Word
 
 Select Domain column > Transform tab > Replace Values> Value to Find: - ; Replace with: type space key
 
- 
+ ## Working with numerical values
+
+### Statistics tools 
+
+Statistics tools are **only** accessible from the Transform Tab in the Query Editor.
 
 ## Date & Time Tools
 
@@ -377,6 +381,8 @@ Home tab > Refresh, you can see all queries all refeshing:
 Set the first 5 queries excluded from refresh, only leave AW_Sales.
 
 Home tab > Refresh, now you can only see that AW_Sales is refreshing.
+
+
 
 
 
