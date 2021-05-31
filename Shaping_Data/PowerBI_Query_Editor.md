@@ -139,17 +139,21 @@ Latest returns a single value (latest day compared to today's date) from the sel
 
 **Year:** 2020, 2021
 
+## Generating index & Conditional columns
 
+### Add index column
 
-## Add conditional columns
+Add index column to create a sequential list of unique values to identify each row. If a table no primary key, you can add index column as primary key. You can start the value from 0 or 1, or any custom number. 
 
-### Data source
+### Add conditional columns
+
+#### Data source
 
 Load the csv file AdventureWorks_Sales_2017 from Raw data folder, then click Transform Data.
 
 Change query name to AW_Sales_2017
 
-### Goal
+#### Goal
 
 We plan to add a new conditional column to record the quantity type
 
@@ -157,7 +161,7 @@ If column OrderQuantity equals 1, Then Output for the new column should be Singl
 
 If column OrderQuantity is greater than 1, Then Output for the new column should be Multiple Items.
 
-### Add conditional column in Query Editor
+#### Add conditional column in Query Editor
 
 Add Column> Conditional column
 
