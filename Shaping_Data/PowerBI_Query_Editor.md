@@ -127,6 +127,10 @@ f(x) = Table.AddColumn(#"Inserted Day Name", "Start of Week", each Date.StartOfW
 
 Option 2 is more readable. 
 
+### Latest
+
+Latest returns a single value (latest day compared to today's date) from the selected date column. And it can only be accessible from the "Transform" tab.
+
 ### Other functions in Date tool
 
 **Name of Month:** January, February ...December
