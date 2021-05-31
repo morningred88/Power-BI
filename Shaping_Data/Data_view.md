@@ -37,6 +37,10 @@ The same procedure for Continent column, select Continent.
 
 You can see the **globe icon** to the left of the fields, indicates these columns are categorized as geographical fields.
 
+**Note:**
+
+PowerBI will almost always recognized these fields properly by default automatically. If we have not gone through the steps above, just plug these countries and do a map visual, 99.9% of time will work exactly what you expect and you'll get accurate results. But as best practice, it really couldn't hurt to explicitly define what type of data category you are working with.
+
 
 
  
