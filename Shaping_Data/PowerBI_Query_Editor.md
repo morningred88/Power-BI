@@ -390,7 +390,10 @@ Set the first 5 queries excluded from refresh, only leave AW_Sales.
 
 Home tab > Refresh, now you can only see that AW_Sales is refreshing.
 
+## New Resource
 
+New data source can be added Home>Get Data.
 
+But you can also add new data source in Query Editor.
 
-
+In Query Editor, you can also add new data source. For example, you can add CSV file to Power BI by click Home > New Source > Text/CSV.
